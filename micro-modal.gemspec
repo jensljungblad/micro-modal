@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email         = ["jens.ljungblad@gmail.com"]
   s.description   = "A description"
   s.summary       = "A summary"
-  s.homepage      = ""
+  s.homepage      = "https://github.com/jensljungblad/micro-modal"
   s.license       = "MIT"
 
   s.files         = `git ls-files`.split($/)
