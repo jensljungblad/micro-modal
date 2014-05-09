@@ -31,7 +31,7 @@ Given the following markup:
 The modal can be initialized using:
 
 ```javascript
-$myModal = $('#my-modal')
+$myModal = $('#my-modal');
 $myModal.modal({
   backdrop: true,
   vertical: true
@@ -41,13 +41,13 @@ $myModal.modal({
 Then opened using:
 
 ```javascript
-$someModal.modal('open');
+$myModal.modal('open');
 ```
 
 And closed using:
 
 ```javascript
-$someModal.modal('close');
+$myModal.modal('close');
 ```
 
 The modal comes with very little styling by default. In order to create a responsive modal with padding, try the following:
