@@ -33,8 +33,8 @@ The modal can be initialized using:
 ```javascript
 $myModal = $('#my-modal');
 $myModal.modal({
-  backdrop: true,
-  vertical: true
+  backdrop: true, // Toggles backdrop visibility
+  vertical: true  // Toggles vertical centering
 });
 ```
 
