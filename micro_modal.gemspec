@@ -1,11 +1,11 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "micro-modal/version"
+require "micro_modal/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name          = "micro-modal"
+  s.name          = "micro_modal"
   s.version       = MicroModal::VERSION
   s.authors       = ["Jens Ljungblad"]
   s.email         = ["jens.ljungblad@gmail.com"]
