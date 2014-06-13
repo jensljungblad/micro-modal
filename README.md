@@ -6,7 +6,7 @@ TODO: Write a gem description
 
 Add this line to your application's Gemfile:
 
-    gem 'micro-modal'
+    gem 'micro_modal'
 
 And then execute:
 
