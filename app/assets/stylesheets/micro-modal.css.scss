@@ -5,6 +5,7 @@
   visibility: hidden;
   opacity: 0;
   cursor: pointer;
+  z-index: 1000;
   -webkit-transition: opacity 0.25s ease;
       -ms-transition: opacity 0.25s ease;
           transition: opacity 0.25s ease;
@@ -33,6 +34,7 @@
   background-color: #fff;
   overflow: auto;
   cursor: auto;
+  z-index: 1001;
 
   .modal-vertical & {
     top: 50%;
