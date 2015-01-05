@@ -1,0 +1,24 @@
+{
+  "name": "micro-modal",
+  "main": [
+    "micro-modal.css",
+    "micro-modal.js"
+  ],
+  "version": "1.0.0",
+  "homepage": "https://github.com/jensljungblad/micro-modal",
+  "authors": [
+    "Jens Ljungblad <jens.ljungblad@gmail.com>"
+  ],
+  "description": "A lightweight, mobile first, responsive modal",
+  "keywords": [
+    "modal"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

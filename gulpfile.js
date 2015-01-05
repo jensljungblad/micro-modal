@@ -3,13 +3,13 @@ var coffee = require('gulp-coffee');
 var sass   = require('gulp-sass');
 
 gulp.task('javascripts', function() {
-  gulp.src('./micro-modal.coffee')
+  gulp.src('./source/micro-modal.coffee')
     .pipe(coffee())
     .pipe(gulp.dest('./'));
 });
 
 gulp.task('stylesheets', function() {
-  gulp.src('./micro-modal.scss')
+  gulp.src('./source/micro-modal.scss')
       .pipe(sass())
       .pipe(gulp.dest('./'));
 });
