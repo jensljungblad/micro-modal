@@ -1,6 +1,6 @@
-# MicroModal
+# Micro Modal
 
-A lightweight, mobile first, responsive modal
+A lightweight, mobile first, responsive modal.
 
 ## Installation
 
@@ -40,7 +40,7 @@ $myModal.modal('close');
 
 The modal comes with very little styling by default. In order to create a responsive modal with padding, try the following:
 
-```sass
+```scss
 @import "micro-modal";
 
 .modal-dialog {
