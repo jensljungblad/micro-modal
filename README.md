@@ -4,6 +4,12 @@ A lightweight, mobile first, responsive modal.
 
 ## Installation
 
+Install using bower:
+
+```sh
+$ bower install micro-modal
+```
+
 ## Usage
 
 Given the following markup:
