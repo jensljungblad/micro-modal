@@ -22,12 +22,13 @@ initialize = (options) ->
   $modal.addClass 'modal-vertical' if options.vertical
 
   # Close modal when clicking the backdrop
-  $modal.on 'click', (e) -> close.apply this
+  $modal.on 'click', (e) ->
+    close.apply this if e.target is e.currentTarget
 
-  $modalDialog = $modal.children '.modal-dialog'
-
-  # Prevent closing modal when clicking the dialog
-  $modalDialog.on 'click', (e) -> e.stopPropagation()
+  # $modalDialog = $modal.children '.modal-dialog'
+  #
+  # # Prevent closing modal when clicking the dialog
+  # $modalDialog.on 'click', (e) -> e.stopPropagation()
 
 open = ->
   $(this).addClass 'modal-open'

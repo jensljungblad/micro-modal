@@ -19,7 +19,7 @@
   };
 
   initialize = function(options) {
-    var $modal, $modalDialog;
+    var $modal;
     options = $.extend({
       backdrop: true,
       keyboard: true,
@@ -32,12 +32,10 @@
     if (options.vertical) {
       $modal.addClass('modal-vertical');
     }
-    $modal.on('click', function(e) {
-      return close.apply(this);
-    });
-    $modalDialog = $modal.children('.modal-dialog');
-    return $modalDialog.on('click', function(e) {
-      return e.stopPropagation();
+    return $modal.on('click', function(e) {
+      if (e.target === e.currentTarget) {
+        return close.apply(this);
+      }
     });
   };
 
