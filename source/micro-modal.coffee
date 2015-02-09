@@ -12,7 +12,6 @@ $.fn.modal = (options) ->
 initialize = (options) ->
   options = $.extend {
     backdrop: true
-    keyboard: true
     vertical: true
   }, options
 
